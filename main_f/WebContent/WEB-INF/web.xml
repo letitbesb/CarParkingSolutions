@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:web="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<servlet-name>AdminLoginServlet</servlet-name>
+		<servlet-class>servlets.AdminLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLoginServlet</servlet-name>
+		<url-pattern>/adminlog</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AddSpaceServlet</servlet-name>
+		<servlet-class>servlets.AddSpaceServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddSpaceServlet</servlet-name>
+		<url-pattern>/addspace</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>LocationCServlet</servlet-name>
+		<servlet-class>servlets.LocationCServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LocationCServlet</servlet-name>
+		<url-pattern>/locationc</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LocationBServlet</servlet-name>
+		<servlet-class>servlets.LocationBServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LocationBServlet</servlet-name>
+		<url-pattern>/locationb</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LocationAServlet</servlet-name>
+		<servlet-class>servlets.LocationAServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LocationAServlet</servlet-name>
+		<url-pattern>/locationa</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>ReceiptC1Servlet</servlet-name>
+		<servlet-class>servlets.ReceiptC1Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReceiptC1Servlet</servlet-name>
+		<url-pattern>/receiptcone</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ReceiptB1Servlet</servlet-name>
+		<servlet-class>servlets.ReceiptB1Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReceiptB1Servlet</servlet-name>
+		<url-pattern>/receiptbone</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ReceiptA1Servlet</servlet-name>
+		<servlet-class>servlets.ReceiptA1Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReceiptA1Servlet</servlet-name>
+		<url-pattern>/receiptaone</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ReceiptC2Servlet</servlet-name>
+		<servlet-class>servlets.ReceiptC2Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReceiptC2Servlet</servlet-name>
+		<url-pattern>/receiptctwo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ReceiptB2Servlet</servlet-name>
+		<servlet-class>servlets.ReceiptB2Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReceiptB2Servlet</servlet-name>
+		<url-pattern>/receiptbtwo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ReceiptA2Servlet</servlet-name>
+		<servlet-class>servlets.ReceiptA2Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReceiptA2Servlet</servlet-name>
+		<url-pattern>/receiptatwo</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>UpdateSpace2Servlet</servlet-name>
+		<servlet-class>servlets.UpdateSpace2Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateSpace2Servlet</servlet-name>
+		<url-pattern>/updatespace2</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>UpdateSpaceServlet</servlet-name>
+		<servlet-class>servlets.UpdateSpaceServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateSpaceServlet</servlet-name>
+		<url-pattern>/updatespace</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ViewSpaceServlet</servlet-name>
+		<servlet-class>servlets.ViewSpaceServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewSpaceServlet</servlet-name>
+		<url-pattern>/viewspace</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>RemoveSpaceServlet</servlet-name>
+		<servlet-class>servlets.RemoveSpaceServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RemoveSpaceServlet</servlet-name>
+		<url-pattern>/removespace</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserLoginServlet</servlet-name>
+		<servlet-class>servlets.UserLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLoginServlet</servlet-name>
+		<url-pattern>/userlog</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UserRegisterServlet</servlet-name>
+		<servlet-class>servlets.UserRegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserRegisterServlet</servlet-name>
+		<url-pattern>/userreg</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>RemoveBookServlet</servlet-name>
+		<servlet-class>servlets.RemoveBookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RemoveBookServlet</servlet-name>
+		<url-pattern>/remove</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AddBookServlet</servlet-name>
+		<servlet-class>servlets.AddBookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddBookServlet</servlet-name>
+		<url-pattern>/addbook</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ViewBookServlet</servlet-name>
+		<servlet-class>servlets.ViewBookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewBookServlet</servlet-name>
+		<url-pattern>/viewbook</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>BuyBooksServlet</servlet-name>
+		<servlet-class>servlets.BuyBooksServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BuyBooksServlet</servlet-name>
+		<url-pattern>/buybook</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ReceiptServlet</servlet-name>
+		<servlet-class>servlets.ReceiptServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReceiptServlet</servlet-name>
+		<url-pattern>/buys</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
