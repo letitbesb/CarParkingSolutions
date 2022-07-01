@@ -6,7 +6,7 @@ A responsive and functional web app using JSP, servlets, HTML/CSS, and MySQL tha
 
 * Admin can add and remove workers in the parking slot locations. 
 
-* Admin can add and remove workers.
+* Admin can add and remove workers based on their performance.
 
 * Functionality for providing details of the workers such as Worker Rating. 
 
