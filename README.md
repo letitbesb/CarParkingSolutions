@@ -26,7 +26,7 @@ Admin has the functionality to remove a worker :
 
 
 
- User Dashboard feature:
+ User Dashboard feature :
  
 
 ![image](https://user-images.githubusercontent.com/29221347/176602169-740cfcb1-b35f-4c52-b399-b4a33d19da2e.png)
